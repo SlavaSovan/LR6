@@ -64,9 +64,14 @@ git commit -m "Какой-то комментарий"
 ```
 git reset --hard HEAD~
 ```
-## 10. Создание ветки для отчёта и переход в неё ([см. рис. 12](https://github.com/SlavaSovan/LR6/blob/otchet/screenshots/12.png))
+### 10. Создание ветки для отчёта и переход в неё ([см. рис. 12](https://github.com/SlavaSovan/LR6/blob/otchet/screenshots/12.png))
 ```
 git checkout -b otchet
+```
+### 11. Оформление отчёта в файле README.md ([см. рис. 13](https://github.com/SlavaSovan/LR6/blob/otchet/screenshots/13.png))
+### 12. Получение истории  операций в форматированном виде ([см. рис. 14](https://github.com/SlavaSovan/LR6/blob/otchet/screenshots/14.png))
+```
+git log --pretty=format:'%h - %cd, %an : %s' --date=format:'%F %R'
 ```
 ___
 ## Выводы
